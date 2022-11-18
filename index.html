@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<link rel = "stylesheet" href = "style.css">
+<link rel = "stylesheet" href = "https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
+</head>
+<body>
+  <div id="header">
+    <header class="bg-dark text-white">To Do List</header>
+    <img src = "list.png">
+  </div>
+  <form class = "form-control">
+    <label for="imput_value" >What do you need to do ?</label>
+    <input type = "text" id = "imput_value" placeholder="type here" >
+    <button id="btnadd" onclick="addItem()"class = "btn btn-outline-* btn-primary">insert</button>
+    <button id="btnshow" class = "btn btn-outline-* btn-success" onclick="showItems()">show</button>
+</form>
+<div id="div">
+    <ul id="list">
+    </ul>
+</div>
+   
+   
+    <script src = "app.js"></script>
+</body>
+</html>
