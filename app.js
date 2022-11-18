@@ -1,7 +1,7 @@
 //creating list
 let btnshow =  document.getElementById("btnshow")
 //add element
-let item
+let item;
 let array = []
     let btnadd = document.getElementById("btnadd")
 //add element
